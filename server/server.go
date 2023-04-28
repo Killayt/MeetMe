@@ -5,7 +5,6 @@ import (
 )
 
 func Run() {
-
 	gin.SetMode(gin.ReleaseMode)
 
 	r := gin.Default()
